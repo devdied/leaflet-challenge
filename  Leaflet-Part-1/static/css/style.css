@@ -1,0 +1,26 @@
+/* Reset padding and margin for the body */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Set the height of the map, body, and html to 100% */
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* Add the legend container styles */
+.info.legend-container {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Add the legend entry styles */
+.info .legend-entry {
+  margin-bottom: 5px;
+}
+
